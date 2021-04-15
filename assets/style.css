@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Courier New', monospace;
+}
+
+body {
+  background: rgb(134, 67, 4);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 1px solid wheat;
+}
+
+div {
+  border: 1px solid black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imagem-principal img {
+  width: 1200px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1, h2 {
+  color: wheat;
+  margin: 8px;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h3, p {
+  margin: 18px;
+}
+
+a {
+  color: antiquewhite;
+}
+
+li:hover {
+  background: black;
+}
